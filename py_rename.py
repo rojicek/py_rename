@@ -29,24 +29,3 @@ for full_name in dir_list:
 
 
 
-
-
-
-
-
-
-# im = Image.open('path/to/image.jpg')
-# exif = im.getexif()
-# creation_time = exif.get(36867)
-#
-#
-# folder_name = 'D:/Users/user/Desktop/Xiomi/100ANDRO/'
-# dir_list = [os.path.join(folder_name, x) for x in os.listdir(folder_name)]
-# #
-# for file in dir_list:
-#     filename, file_extension = os.path.splitext(file)
-#     date = datetime.fromtimestamp(os.path.getctime(file)).strftime('%Y_%m_%d_%H_%M_%S')
-#     os.rename(file, os.path.join(folder_name, date + file_extension))
-#
-#
-# print(dir_list)
